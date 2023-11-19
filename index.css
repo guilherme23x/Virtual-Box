@@ -1,0 +1,142 @@
+/* Fundo */
+body{
+    background-color: #1D1D1D;
+    overflow: hidden;
+}
+
+
+
+/* Navbar */
+.imglogo{
+    border-radius: 10px;
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+}
+
+.search{
+    position: right;
+}
+
+.home{
+    margin-left: auto;
+    margin-right: auto; 
+    padding: 1.5%;
+    border-radius: 10px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: darkgrey;
+    width: 95%;
+    height: auto;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    align-items: center;
+    justify-content: center;
+}
+
+.titulo{
+    text-align: center;
+    color: lightgrey;
+    position: relative;
+    margin-bottom: 5%;
+}
+
+.texto{
+    text-align: justify;
+    color: white;    
+}
+
+.botao{
+    text-align: center;
+    margin-top: 5%;
+    
+}
+
+.baixar{
+    color: black;
+    text-decoration: none;
+    font-size: 30px;
+    border-width: 5px;
+    background-color: rgb(53, 53, 230);
+    width: 28%;
+    padding: 2%;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.sub{
+    text-align: center;
+    color: white;
+    margin-top: 5%;
+}
+
+.importantes{
+    text-align: center;
+    color: grey;
+    margin-top: 5%;
+}
+
+/* Rodapé */
+
+.rodape{
+    text-align: center;
+}
+
+.titulorodape{
+    text-align: center;
+    color: orange;
+    text-align: center;
+    text-decoration: none;
+    margin-top: 5%;
+    font-size: 25px;
+}
+
+.links{
+    display: flexbox;
+    text-align: center;
+}
+
+.link{
+    text-align: center;
+    text-decoration: none;
+    color: cornflowerblue;
+    font-size: 20px;
+}
+
+.cards{
+    align-items: center;
+    display:flex;
+    text-align: center;
+    justify-content: center;
+    margin-top: 2%;
+}
+
+.card{
+    width: 200px;
+    height:200px;
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: center;
+    justify-content: center;
+    background-color: #191919;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.titulosistema{
+    font-size: 20px;
+    color: white;
+}
+
+.baixarvb{
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    border-width: 5px;
+    background-color: rgb(53, 53, 230);
+    width: 80%;
+    padding: 2%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    
+}
