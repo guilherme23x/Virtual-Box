@@ -1,133 +1,46 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
-        crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="./index.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
     <title>Virtual Box</title>
-</head>
+  </head>
 
-<body>
-    <!--
-    <nav class="navbar navbar-expand-lg bg-body-tertiary " data-bs-theme='dark'>
-        <div class="container-fluid">
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01"
-                aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-                <a class="navbar-brand" href="./index.html">
-                    <img class="imglogo" src="./img/icone.png" alt="Bootstrap">
-                </a>
-                <a class="navbar-brand" href="./index.html">Virtual Box</a>
+  <body>
+    <div class="container">
+      <header>
+        <nav>
+          <div class="categorias">
+            <a href="" class="produto">Virtual Box</a>
+            <ul>
+              <li><a href="./downloads.html">Downloads</a></li>
+              <li><a href="https://www.virtualbox.org/">Site Oficial</a></li>
+            </ul>
+          </div>
 
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="./index.html"></a>
-                    </li>
+          <a href="https://github.com/guilherme23x" class="github">Github</a>
+        </nav>
+      </header>
 
-                    <li class="nav-item">
-                        <a class="nav-link disabled" aria-current="page" href="#">Índice</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link disabled" aria-current="page" href="#">Histórico</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link disabled" aria-current="page" href="#">Preferências</a>
-                    </li>
-                </ul>
-                <form class="d-flex search" role="search">
-                    <input class="form-control me-2 " type="search" placeholder="Pesquisar" aria-label="Search">
-                    <button class="btn btn-primary" style="color: black;" type="submit">Buscar</button>
-                </form>
-            </div>
+      <div class="programa">
+        <div>
+          <h1>Virtual Box</h1>
+          <p>
+            Um programa que virtualiza vários sistemas Windows e Linux de
+            diversas versões e distribuições.
+          </p>
+
+          <a href="./downloads.html">Download</a>
         </div>
-    </nav>
-    -->
-
-    <!-- Homepage -->
-
-    <div class="home">
-        <h1 class="titulo">Bem-vindo ao VirtualBox</h1>
-        <div class="containertexto">
-            <p class="texto">VirtualBox é um poderoso produto de virtualização x86 e AMD64/Intel64 para uso empresarial
-                e doméstico. O VirtualBox não é apenas um produto extremamente rico em recursos e de alto desempenho
-                para clientes corporativos, mas também é a única solução profissional disponível gratuitamente como
-                software de código aberto sob os termos da GNU General Public License (GPL) versão 3. Consulte " Sobre o
-                VirtualBox " para uma introdução.
-            </p>
-
-            <p class="texto"> Atualmente, o VirtualBox é executado em hosts Windows, Linux, macOS e Solaris e oferece
-                suporte a um
-                grande número de sistemas operacionais convidados , incluindo, entre outros, Windows (NT 4.0, 2000, XP,
-                Server 2003, Vista, 7, 8, Windows 10 e Windows 11), DOS/Windows 3.x, Linux (2.4, 2.6, 3.x, 4.x, 5.xe
-                6.x), Solaris e OpenSolaris, OS/2, OpenBSD, NetBSD e FreeBSD.
-            </p>
-
-            <p class="texto"> O VirtualBox está sendo desenvolvido ativamente com lançamentos frequentes e tem uma lista
-                cada vez
-                maior de recursos, sistemas operacionais convidados suportados e plataformas em que é executado. O
-                VirtualBox é um esforço comunitário apoiado por uma empresa dedicada: todos são incentivados a
-                contribuir enquanto a Oracle garante que o produto sempre atenda aos critérios de qualidade
-                profissional.
-            </p>
-
-            <!--
-            <div class="botao">
-                <a class="baixar" href="">Download</a>
-            </div>
-            -->
-
-            <!-- Cards -->
-
-            <div class="cards">
-                <div class="card">
-                    <p class="titulosistema">Windows</p>
-                    <a class="baixarvb"
-                        href="https://download.virtualbox.org/virtualbox/7.0.12/VirtualBox-7.0.12-159484-Win.exe">Baixar</a>
-                </div>
-
-                <div class="card">
-                    <p class="titulosistema">Linux</p>
-                    <a class="baixarvb" href="https://www.virtualbox.org/wiki/Linux_Downloads">Baixar</a>
-                </div>
-
-                <div class="card">
-                    <p class="titulosistema">Mac OS</p>
-                    <a class="baixarvb"
-                        href="https://download.virtualbox.org/virtualbox/7.0.12/VirtualBox-7.0.12-159484-OSX.dmg">Baixar</a>
-                </div>
-
-            </div>
-
-
-            <!--
-            <h2 class="sub">Escolhas importantes:</h2>
-            <p class="importantes">Máquinas virtuais pré-construídas para desenvolvedores da Oracle Tech Network</p>
-            <p class="importantes">Site do projeto Hyperbox Open-source Virtual Infrastructure Manager</p>
-            <p class="importantes">Site do projeto de interface web phpVirtualBox AJAX</p>
-        -->
-        </div>
+        <img src="./img/icone.png" alt="" />
+      </div>
     </div>
-
-    <!-- Rodapé 
-
-    <div class="rodape">
-        <a class="titulorodape" href="https://www.oracle.com/">ORACLE 2023</a>
-        <div class="links">
-            <a class="link" href="https://www.oracle.com/virtualization/virtualbox/resources.html">Contatos - </a>
-            <a class="link" href="https://www.oracle.com/html/privacy.html">Política de privacidade - </a>
-            <a class="link" href="https://www.oracle.com/html/terms.html">Termos de uso</a>
-        </div>
-
-    </div>
-    -->
-</body>
-
+  </body>
 </html>
