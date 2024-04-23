@@ -131,3 +131,75 @@ ul li {
 .programa img {
   width: 30%;
 }
+
+@media screen and (max-width: 1108px) {
+  body {
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .container {
+    margin-top: 10%;
+    margin-bottom: 10%;
+    height: 100%;
+  }
+
+  header {
+    width: 100%;
+    height: 8%;
+    padding: 0;
+    padding-top: 10%;
+    align-items: center;
+  }
+
+  nav {
+    justify-content: center;
+    align-items: center;
+  }
+
+  .produto {
+    display: none;
+  }
+
+  ul li {
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+
+  .github_mobile {
+    display: block;
+  }
+
+  .github {
+    display: none;
+    align-items: center;
+    justify-content: center;
+    box-shadow: none;
+    display: none;
+    background-color: transparent;
+  }
+
+  .programa {
+    display: block;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .programa .card{
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 15px;
+  }
+
+  .programa p {
+    width: 100%;
+  }
+
+  .programa a {
+    width: 50%;
+    padding: 10%;
+    font-size: 20px;
+  }
+}
